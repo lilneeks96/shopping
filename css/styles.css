@@ -29,9 +29,6 @@ body.wrong {
 body.correct {
     --hue: var(--hue-correct);
 }
-
-
-
 .container {
     width: 800px;
     max-width: 80%;
