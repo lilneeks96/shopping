@@ -14,29 +14,37 @@
         <!-- direct them to another "algorithm" send to easiest champions for each role -->
 
         <p>Experience in MOBAS?</p>
-            <input type="checkbox" id="bronze" name="bronze" value="0">
-            <label for="low">Noob</label>
-            <input type="checkbox" id="diamond" name="diamond" value="10">
-            <label for="high">Pro</label>
-        <p>What lane?</p>
         <form>
+            <input type="radio" id="bronze" name="experience" value="0">
+            <label for="noob">Noob</label><br>
+            <input type="radio" id="diamond" name="experience" value="10">
+            <label for="pro">Pro</label>
+        </form>    
+        <p>What lane?</p>
+
             <!-- have a "onmouse" function information on the check box -->
-            <input type="checkbox" id="top" name="1" value="1">
-            <label for="top">Top</label><br>
+            <form>
+                <input type="radio" id="top" name="layer_one" value="100">
+                <label for="top">Top</label><br>
 
-            <input type="checkbox" id="middle" name="2" value="2">
-            <label for="middle">Middle</label><br>
+                <input type="radio" id="middle" name="layer_one" value="200">
+                <label for="middle">Middle</label><br>
 
-            <input type="checkbox" id="jungle" name="3" value="3">
-            <label for="jungle">Jungle</label><br>
+                <input type="radio" id="jungle" name="layer_one" value="300">
+                <label for="jungle">Jungle</label><br>
 
-            <input type="checkbox" id="adc" name="4" value="4">
-            <label for="adc"> Attack Damage Carry</label><br>
+                <input type="radio" id="adc" name="layer_one" value="400">
+                <label for="adc">Attack Damage Carry</label><br>
 
-            <input type="checkbox" id="support" name="5" value="5">
-            <label for="support"> Support</label><br>
+                <input type="radio" id="support" name="layer_one" value="500">
+                <label for="support">Support</label><br>
+                
+              </form>
 
-          </form>
+          <p>Cool you chose "placeholder"</p>
+          <p>these questions will now ask about your playstyle!</p>
+
+          
 
 </body>
 </html>
