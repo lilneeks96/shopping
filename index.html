@@ -9,44 +9,68 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Which Champion is right for you?</h1>
-    <p>show this one by one like a slide so I can practice routing</p>
-        <p>This survey will decide your next league champion</p>
-        <input type="submit" value="Start">
-        <!-- direct them to another "algorithm" send to easiest champions for each role -->
+    <!-- <header>
+        <h1>Header</h1>
+        <p>Give us some information</p>
+    </header> -->
+    <div class ="container">
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 1</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
 
-        <p>Experience in MOBAS?</p>
-        <form>
-            <input type="radio" id="bronze" name="experience" value="0">
-            <label for="noob">Noob</label><br>
-            <input type="radio" id="diamond" name="experience" value="10">
-            <label for="pro">Pro</label>
-        </form>    
-        <p>What lane?</p>
+    </div>
 
-            <!-- have a "onmouse" function information on the check box -->
-            <form>
-                <input type="radio" id="top" name="layer_one" value="100">
-                <label for="top">Top</label><br>
 
-                <input type="radio" id="middle" name="layer_one" value="200">
-                <label for="middle">Middle</label><br>
 
-                <input type="radio" id="jungle" name="layer_one" value="300">
-                <label for="jungle">Jungle</label><br>
 
-                <input type="radio" id="adc" name="layer_one" value="400">
-                <label for="adc">Attack Damage Carry</label><br>
 
-                <input type="radio" id="support" name="layer_one" value="500">
-                <label for="support">Support</label><br>
 
-              </form>
 
-          <p>Cool you chose "placeholder"</p>
-          <p>these questions will now ask about your playstyle!</p>
 
-          
+    <!-- <div class="container">
+        <div class="q1">
+            <h3>What Lane?</h3>
+            <ul class="option">
+                <li>Top</li>
+                <li>Middle</li>
+                <li>Jungle</li>
+                <li>ADC</li>
+                <li>Support</li>
+            </ul>
+        </div>
+        <div class="q2">
+            <h3>How long have you been playing?</h3>
+            <ul class="option">
+                <li>Brand new</li>
+                <li>days</li>
+                <li>weeks</li>
+                <li>months</li>
+                <li>years</li>
+            </ul>
+        </div>
+
+        <div class="q3">
+            <h3>Are you more passive or aggressive?</h3>
+            <ul class="option">
+                <li>Passive</li>
+                <li>Neutral</li>
+                <li>Aggressive</li>
+                <li>Depends on the matchup</li>
+            </ul>
+        </div>
+    </div> -->
+
 
 </body>
 </html>
