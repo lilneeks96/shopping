@@ -11,12 +11,32 @@
 <body>
     <h1>Which Champion is right for you?</h1>
         <p>This survey will decide your next league champion</p>
+        <!-- direct them to another "algorithm" send to easiest champions for each role -->
+
         <p>Experience in MOBAS?</p>
+            <input type="checkbox" id="bronze" name="bronze" value="0">
+            <label for="low">Noob</label>
+            <input type="checkbox" id="diamond" name="diamond" value="10">
+            <label for="high">Pro</label>
         <p>What lane?</p>
+        <form>
+            <!-- have a "onmouse" function information on the check box -->
+            <input type="checkbox" id="top" name="1" value="1">
+            <label for="top">Top</label><br>
 
-    <!-- I should ask the user what their experience in mobas is first  than direct them to the guide depending on answer -->
-    
+            <input type="checkbox" id="middle" name="2" value="2">
+            <label for="middle">Middle</label><br>
 
-    
+            <input type="checkbox" id="jungle" name="3" value="3">
+            <label for="jungle">Jungle</label><br>
+
+            <input type="checkbox" id="adc" name="4" value="4">
+            <label for="adc"> Attack Damage Carry</label><br>
+
+            <input type="checkbox" id="support" name="5" value="5">
+            <label for="support"> Support</label><br>
+
+          </form>
+
 </body>
 </html>
